@@ -1,13 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const App = () => {
-  return (
-    <div>
-      <h3 className='py-4 w-100 bg-red-500 text-center text-white text-2xl'>
-      In the name of god...
-      </h3>
+import { Navbar } from "./components/";
+
+const App = () => (
+  <div className="app">
+    <div className="navbar">
+      <Navbar />
     </div>
-  )
-}
+    <div className="main">
 
-export default App
+    </div>
+      <div className="footer">
+
+      </div>
+  </div>
+);
+
+export default App;
