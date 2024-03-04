@@ -10,15 +10,15 @@ const routes = createBrowserRouter([
                 element: <HomePage />
             },
             {
-                path: "/cryptocurrenciesPage",
+                path: "/cryptocurrencies",
                 element: <CryptocurrenciesPage />
             },
             {
-                path: "/cryptoDetailsPage",
+                path: "/cryptoDetails",
                 element: <CryptoDetailsPage />
             },
             {
-                path: "/exchangesPage",
+                path: "/exchanges",
                 element: <ExchangesPage />
             },
             {
